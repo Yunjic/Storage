@@ -1,7 +1,0 @@
-다운로드는 http
-명령어는 MQTT
-
-다운로드는 http
-
-pppos
-
