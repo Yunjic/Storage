@@ -6,3 +6,11 @@ XTC Tools 관리자 권한으로 실행 후 첨부된 2가지 파일이 저장�
 
 xflash --factory example_ffd_cyberon.xe --data example_ffd_cyberon_data_partition.bin --boot-partition-size 0x100000 --force-jtag  
 명령어로 진행 하고 진행 중에 나타나는 메세지는 Y로 하시면 됩니다.
+
+
+C:\Users\온품\241121_fix>xflash --factory example_ffd_cyberon.xe --data example_ffd_cyberon_data_partition.bin --boot-partition-size 0x100000 --force-jtag
+xcc1: terminated due to internal unrecoverable error
+For bug reporting instructions, please see:
+https://www.xmos.com/support
+xmap: Error: Failed to compile IRDs.
+Error: F03010 Failed to compile second stage bootloader
