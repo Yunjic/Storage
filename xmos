@@ -1,0 +1,8 @@
+안녕하세요? 모네S&C 박성광 입니다.
+인식/오인식 관련하여 빅샤인과 유사한 환경에서 test 진행 개선된 바이너리 첨부드립니다.
+
+Download 방법
+XTC Tools 관리자 권한으로 실행 후 첨부된 2가지 파일이 저장된 폴더에서  xflash -l 명령어로 디바이스 가능 여부(P[0]) 확인 후
+
+xflash --factory example_ffd_cyberon.xe --data example_ffd_cyberon_data_partition.bin --boot-partition-size 0x100000 --force-jtag  
+명령어로 진행 하고 진행 중에 나타나는 메세지는 Y로 하시면 됩니다.
